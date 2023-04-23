@@ -1,5 +1,5 @@
 sounds
-run
+out
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar

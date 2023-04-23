@@ -9,7 +9,7 @@ public class Sounds {
 
     private static void register1(SoundsHandler s) {
 
-        //Kings Recruit
+s.state("Kings Recruit");
         s.addSound("[1/2] Caravan Driver: Agh!", "kingsrecruit-caravandriver-1", false, 45);
         s.addSound("[1/4] Caravan Driver: I swear I hit this same dang boulder everytime I make this trip.", "kingsrecruit-caravandriver-2", false);
         s.addSound("[3/4] Caravan Driver: It's not that far, it's just a straight path from here.", "kingsrecruit-caravandriver-3", false);
@@ -216,7 +216,7 @@ public class Sounds {
         s.addSound("[4/4] The Cook: You can get wheat grains by farming some from the fields close to Ragni's north entrance.", "cookassistant-thecook-13", false);
         s.addSound("[1/1] The Cook: You should practice your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-14", false);
 
-        //Infested Plants
+s.state("Infested Plants");
         s.addSound("[1/5] Ope: Hello! Young traveler.", "infestedplants-ope-1", false);
         s.addSound("[2/5] Ope: I was recently bit by a spider! Can you believe it? I know, shocking.", "infestedplants-ope-2", false);
         s.addSound("[3/5] Ope: Anyway, I'm not fit enough to venture into an infested cave filled with creepy crawlies to get the medical herb to cure myself.", "infestedplants-ope-3", false);
@@ -229,7 +229,7 @@ public class Sounds {
         s.addSound("[2/2] Ope: Come back when you are a bit stronger than... that. Level 4 should work.", "infestedplants-ope-10", false);
         s.addSound("[1/1] Ope: Thank you again for your help!", "infestedplants-ope-11", false);
 
-        //The Sewers Of Ragni
+s.state("The Sewers Of Ragni");
         s.addSound("[1/4] Jenprest: Soldier! Good timing. We've been requesting help for ages.", "thesewersofragni-jenprest-1", false);
         s.addSound("[2/4] Jenprest: Looks like we have a blocked pipe in the sewers. No wonder no one wanted the job.", "thesewersofragni-jenprest-2", false);
         s.addSound("[3/4] Jenprest: I'm going to need you to get your hands dirty. I'll need some assistance with the blockage.", "thesewersofragni-jenprest-3", false);
@@ -368,7 +368,7 @@ public class Sounds {
         s.addSound("[1/1] Yahya: I am everywhere. M-mushroom soup, stew, soup m-makes me fast!", "mushroomman-yahya-28", false);
         s.addSound("[1/1] Yahya: I could r-really use a new spoon to eat my m-m-mushroom soup with. Maybe... yellow- no wait, black!", "mushroomman-yahya-29", false);
 
-        //Potion Making
+s.state("Potion Making");
         s.addSound("[1/5] The Assistant: Heeh...stranger. I...may need your assistance...", "potionmaking-theassistant-1", false);
         s.addSound("[2/5] The Assistant: My master...wishes to create a very dangerous potion...a transformative elixir of invincibility...", "potionmaking-theassistant-2", false);
         s.addSound("[3/5] The Assistant: I was...in support of this... but then, he accrued essence of... the corruption. I had to run away...", "potionmaking-theassistant-3", false);
@@ -599,7 +599,7 @@ public class Sounds {
         s.addSound("[1/1] Sayleros: You look like you desperately need an adventure, Come back when you're level 20, I might need you", "gravedigger-sayleros-10", false);
         s.addSound("[1/1] Sayleros: Thank you so much for your help!", "gravedigger-sayleros-11", false);
 
-        //Macabre Masquerade Hallowynn 2014
+s.state("Macabre Masquerade Hallowynn 2014");
         s.addSound("[1/5] Mask Salesman: Hmm... Let's see, wha- Ah! Oh, pardon me, I was distracted. Luckily you're here, because I require some assistance.", "macabremasquerade-masksalesman-1", false);
         s.addSound("[2/5] Mask Salesman: You see, I was just on my way back from that large mansion near Nesaak, where I went to acquire some antiques from an old business partner.", "macabremasquerade-masksalesman-2", false);
         s.addSound("[3/5] Mask Salesman: However, along the way, a valuable cursed mask escaped from my caravan and somehow made its way into the dark mine over there!", "macabremasquerade-masksalesman-3", false);
@@ -657,7 +657,7 @@ public class Sounds {
         s.addSound("[4/5] Pottur: Success!", "studyingthecorrupt-pottur-10", false);
         s.addSound("[5/5] Pottur: I can't believe it was that simple. Magic can be like forcing a square into a circle, you just got to change your tact. Thanks for your help soldier.", "studyingthecorrupt-pottur-11", false);
 
-        //Pit of the dead
+s.state("Pit of the dead");
         s.addSound("[1/1] Merloni: Ah yes, hello! I don't think you want to hear what I have to say. It's a bit out of your league, come back when you are level 23.", "pitofthedead-merloni-1", false);
         s.addSound("[1/8] Merloni: Would you like to hear the tale of the pit of the dead?", "pitofthedead-merloni-2", false);
         s.addSound("[2/8] Merloni: It is the pit where the corpses of the poor miners who discovered what is now named the Nether Portal are buried.", "pitofthedead-merloni-3", false);
@@ -671,7 +671,7 @@ public class Sounds {
         s.addSound("[1/1] Merloni: Very impressive! Here's your reward. I found it a while ago while walking around Nemract. It probably fell off a skeleton!", "pitofthedead-merloni-11", false);
         s.addSound("[1/1] Merloni: Glad to see you again!", "pitofthedead-merloni-12", false);
 
-        //Cluck cluck
+s.state("Cluck cluck");
         s.addSound("[1/6] Nohno: Hey, you aren't a chicken! Wait, you're a human! You can help me! Maybe you are the guy who helped my brother Yahya, but who knows, you humans all look the same to me.", "cluckcluck-nohno-1", false);
         s.addSound("[2/6] Nohno: I really love my chickens, but there is one that I just cannot control...", "cluckcluck-nohno-2", false);
         s.addSound("[3/6] Nohno: His name is Cluckles, he was given to me by a man named Bob before he went to war, but when Bob never came back, Cluckles got angry...", "cluckcluck-nohno-3", false);
@@ -926,7 +926,7 @@ public class Sounds {
         s.addSound("[1/1] Laen: I have a task for you, but you are...perhaps a bit ill-equipped? Come back when you are level 26.", "losttower-laen-7", false);
         s.addSound("[1/1] Laen: Thank you for your help!", "losttower-laen-8", false);
 
-        //Corrupted village
+s.state("Corrupted village");
         s.addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedvillage-orikal-1", false);
         s.addSound("[2/7] Orikal: Oh, you seem calm. What are you doing here? Bit close to the portal for a soldier isn't it?", "corruptedvillage-orikal-2", false);
         s.addSound("[3/7] Orikal: I see, you were sent to aid the public. Perfect.", "corruptedvillage-orikal-3", false);
@@ -973,7 +973,7 @@ public class Sounds {
         s.addSound("[3/4] Orikal: But what is it connected to? That's for another day. The main thing is the village is safe.", "corruptedvillage-orikal-31", false);
         s.addSound("[4/4] Orikal: Here, take this for your help. I found this potato in one of the houses around here, and I sure as heck don't want it!", "corruptedvillage-orikal-32", false);
 
-        //Deja Vu
+s.state("Deja Vu");
         s.addSound("[1/6] Asher: Well well well, look who decided to come back with their tail between their legs.", "dejavu-asher-1", false);
         s.addSound("[2/6] Asher: Two weeks now and you still haven't found it? Ugh, I can't believe I ever trusted you with such a simple task.", "dejavu-asher-2", false);
         s.addSound("[3/6] Asher: Who am I? WHAT DO YOU MEAN WHO AM I? You offered to help find my shovel, and I've been waiting two weeks!", "dejavu-asher-3", false);
@@ -1054,7 +1054,7 @@ public class Sounds {
         s.addSound("[1/2] Old Man Martyn: Oh, so close on that try. Who could've guessed that was how our friend met his end?", "dejavu-oldmanmartyn-29", false);
         s.addSound("[2/2] Old Man Martyn: I'm sure you'll nail it this time. Not sure how you will stop a cosmic event, though.", "dejavu-oldmanmartyn-30", false);
 
-        //Misadventure on the sea
+s.state("Misadventure on the sea");
         s.addSound("[1/8] Barman: Hello there soldier! What can I get you?", "misadventureonthesea-barman-1", false);
         s.addSound("[2/8] Honip: I'll take 2 Nemract Whiskeys. One for me, one for this chap.", "misadventureonthesea-honip-1", false);
         s.addSound("[3/8] Barman: You got it.", "misadventureonthesea-barman-2", false);
@@ -1203,7 +1203,7 @@ public class Sounds {
         s.addSound("[8/9] Santa: That is some seriously dark magic we've encountered on this journey, and I'm sure it won't be the last encounter in your adventure.", "craftmaschaos-santa-17", false);
         s.addSound("[9/9] Santa: Here, take this early Craftmas present from me. Good luck with your journey!", "craftmaschaos-santa-18", false);
 
-        //The Mercenary
+s.state("The Mercenary");
         s.addSound("[1/1] Mylo: These are dark times, weary traveler! Too dark for you. Come back when you are at least level 30.", "themercenary-mylo-1", false);
         s.addSound("[1/1] Mylo: Your deeds bring me great relief! Thank you, my friend.", "themercenary-mylo-2", false);
         s.addSound("[1/8] Mylo: These are dark times, weary traveler! Nemract is at its weakest!", "themercenary-mylo-3", false);
@@ -1241,7 +1241,7 @@ public class Sounds {
         s.addSound("[1/1] Amerigo: Keep that bracelet around! I am certain you will find it useful.", "themercenary-amerigo-22", false);
 
 
-        //Green Gloop
+s.state("Green Gloop");
         s.addSound("[1/9] Eluzterp: Oh, hey! You, adventurer over there! Would you mind helping me?", "greengloop-eluzterp-1", false);
         s.addSound("[2/9] Eluzterp: You see, this cave behind me has been troubling me for the past while now.", "greengloop-eluzterp-2", false);
         s.addSound("[3/9] Eluzterp: There are special slimes that live in there, and they drop a certain goo that is quite a delicacy when brewed into a drink!", "greengloop-eluzterp-3", false);
@@ -1267,7 +1267,7 @@ public class Sounds {
         s.addSound("[5/6] Eluzterp: He hangs around in a little black stall in the bazaar, there's a basement to it. He should let you inside now.", "greengloop-eluzterp-14", false);
         s.addSound("[6/6] Eluzterp: And, for your troubles, a little something from me as well.", "greengloop-eluzterp-15", false);
 
-        //A sandy scandal
+s.state("A sandy scandal");
         s.addSound("[1/7] Almuj Bank Guard: You look like a hardy one, Ragni army is it? Would you be willing to help Almuj a bit?", "asandyscandal-almujbankguard-1", false);
         s.addSound("[2/7] Almuj Bank Guard: Us guards have been trying to root out desert bandits trying to rob the bank.", "asandyscandal-almujbankguard-2", false);
         s.addSound("[3/7] Almuj Bank Guard: We're using reports from witnesses to try to gain information.", "asandyscandal-almujbankguard-3", false);
@@ -1379,7 +1379,7 @@ public class Sounds {
         s.addSound("[6/9] Santa: I'm sorry Nick. You could go to Detlas and ask there, they have a feast big enough to feed an army!", "meaningfulholiday-santa-7", false);
         s.addSound("[9/9] Santa: Alright, that's settled then. Leave through the fireplace behind me, it will bring you directly to Detlas. Good luck, Nick.", "meaningfulholiday-santa-8", false);
 
-        //Kingdom of Sand
+s.state("Kingdom of Sand");
         s.addSound("[1/3] ???: Hmm.. No dice. Let me try another.", "kingdomofsand-lanu-1", false);
         s.addSound("[2/3] ???:", "kingdomofsand-lanu-2", false);
         s.addSound("[3/3] ???: Ugh. I guess the legend is true about the sceptre.", "kingdomofsand-lanu-3", false);
@@ -1433,7 +1433,7 @@ public class Sounds {
         s.addSound("[5/6] Lanu: I'm sure the tale will be discovered in time.", "kingdomofsand-lanu-20", false);
         s.addSound("[6/6] Lanu: Well, maybe we'll see each other again, but I must go now. Here, take this as a token of my gratitude.", "kingdomofsand-lanu-21", false);
 
-        //Tribal aggression
+s.state("Tribal aggression");
         s.addSound("[1/7] Caras: My tribe worries our own business, stranger.", "tribalaggression-caras-1", false);
         s.addSound("[2/7] Caras: Oh, my apologies, I did not realize you are a warrior of the province! We would be grateful of your help.", "tribalaggression-caras-2", false);
         s.addSound("[3/7] Caras: Our sacred owl totem that we worship was stolen by the cunning Eagle Tribe many years ago. Its magical properties used to bring prosperity to our camp.", "tribalaggression-caras-3", false);
@@ -1679,7 +1679,7 @@ public class Sounds {
         s.addSound("[1/1] Ormrod: Thank you so much for removing the curse!", "wrathofthemummy-ormrod-11", false);
         s.addSound("[1/1] Ormrod: Don't stand close to me, I am cursed! Come back when you're level 36, you might be able to help me.", "wrathofthemummy-ormrod-12", false);
 
-        //Canyon Condor
+s.state("Canyon Condor");
         s.addSound("[1/9] Svin: I am one of the Keepers in the great Temple of Legends. There we hoard secrets about the world.", "canyoncondor-svin-1", false);
         s.addSound("[2/9] Svin: I am here to investigate an old tale of the canyon. Does that interest you? I'm sure it does!", "canyoncondor-svin-2", false);
         s.addSound("[3/9] Svin: Legend has it that a ferocious beast lives among these cliffs. A dangerous bird that has survived for many years.", "canyoncondor-svin-3", false);
@@ -1720,7 +1720,7 @@ public class Sounds {
         s.addSound("[4/5] Svin: If only you could enter the Temple of Legends, brave soul! But it would seem our paths are to part now.", "canyoncondor-svin-13", false);
         s.addSound("[5/5] Svin: Do not worry, I shall keep the egg safe. One day your legend shall be as greatly told!", "canyoncondor-svin-14", false);
 
-        //Pirates Trove
+s.state("Pirates Trove");
         s.addSound("[1/8] Damiral: Lo, adventurer! Welcome to the great province of Gavel, home of the villager race, and yours truly. You'll be headed into the grand citadel of Llevigar soon!", "piratestrove-damiral-1", false);
         s.addSound("[2/8] Damiral: But enough with the pleasantries. Tell me... Ever heard the tale of the great pirate, Captain Hastor? Sailed the seas a long time ago.", "piratestrove-damiral-2", false);
         s.addSound("[3/8] Damiral: Legend says that when Llevigar was rebuilt all those years ago, he hid his fortune within the walls someplace!", "piratestrove-damiral-3", false);
@@ -1733,7 +1733,7 @@ public class Sounds {
         s.addSound("[2/3] Damiral: Phenomenal work, my compatriot. Though, do remember our deal?", "piratestrove-damiral-10", false);
         s.addSound("[3/3] Damiral: You find the treasure, I give you a cut. I'll just take my part and be on my way!", "piratestrove-damiral-11", false);
 
-        //Ice nations
+s.state("Ice nations");
         s.addSound("[1/6] Adigard: Welcome traveler, to our humble island...", "icenations-adigard-1", false);
         s.addSound("[2/6] Adigard: My people and I landed here many years ago. Unfortunately, our ship didn't make it...", "icenations-adigard-2", false);
         s.addSound("[3/6] Adigard: We tried to build a nation on these islands but became divided through the years.", "icenations-adigard-3", false);
@@ -1783,7 +1783,7 @@ public class Sounds {
         s.addSound("[6/6] Ankou: For this honor... A reward, for you. You have truly earned it... Hehehehe...", "towerofascencion-ankou-17", false);
 
 
-        //Heart of llevigar
+s.state("Heart of llevigar");
         s.addSound("[1/6] Zenam: Aaah, no no no! This doesn't make any sense, what in the world is going on?! Nothing's working!", "heartofllevigar-zenam-1", false);
         s.addSound("[2/6] Zenam: Gweh, a visitor? Get out of here! The plant is shut down for maintenance- wait, are you the electromagic expert we're paying for?", "heartofllevigar-zenam-2", false);
         s.addSound("[3/6] Zenam: You are, right? Right?! Cause we can't wait any longer! This system was supposed to be unbreakable, a flawless design!", "heartofllevigar-zenam-3", false);
@@ -1923,7 +1923,7 @@ public class Sounds {
         s.addSound("[1/2] Fredris: What is this thing supposed to be? You know, I would really appreciate your help, but this [Breathing Helmet I] does not look like it's going to keep you protected.", "underice-fredris-6", false);
         s.addSound("[2/2] Fredris: Would you mind heading to our local armour merchant and buying one of our [Breathing Helmet II]? I don't want you to drown. Just come back with the helmet and I will tell you about my problem.", "underice-fredris-7", false);
 
-        //Blazing Retribution
+s.state("Blazing Retribution");
         s.addSound("[1/7] Piere: Oh sweet baby bovine, my house, what am I going to do? Wait, who are you?", "blazingretribution-piere-1", false);
         s.addSound("[2/7] Piere: Oh, a Human. Did the Llevigar authorities send you?", "blazingretribution-piere-2", false);
         s.addSound("[3/7] Piere: Detective Jackson has already been here. Not that he's doing anything useful.", "blazingretribution-piere-3", false);
@@ -2373,7 +2373,7 @@ public class Sounds {
         s.addSound("[8/9] Troms Mage: I don't have much to repay you, but it's at least useful for a soldier like you.", "corruptedbetrayal-tromsmage-17", false);
         s.addSound("[9/9] Troms Mage: If you have nothing else to do, you should get yourself prepared and aid the army against Slykaar.", "corruptedbetrayal-tromsmage-18", false);
 
-        //Death Whistle
+s.state("Death Whistle");
         s.addSound("[1/7] Voer: Hello! Hmm, armour, weapon, look of grim despair... You must be from the Wynn province!", "deathwhistle-voer-1", false);
         s.addSound("[2/7] Voer: My name is Voer, and I'm an exotic plant merchant. I sell all kinds of, uh, perfectly legal goods to the magicians of Gavel.", "deathwhistle-voer-2", false);
         s.addSound("[3/7] Voer: Lately, this Decay has been making business rather tough. The magical plants that used to grow here are dying.", "deathwhistle-voer-3", false);
@@ -2514,7 +2514,7 @@ public class Sounds {
         s.addSound("[5/6] Lari: Bring a group... Even Whelps can be a terror if they're enraged. Just...p-please, take care of this quickly.", "realmoflight1-lari-61", false);
         s.addSound("[6/6] Lari: You deserve the best... But that's more than I can give...so here. Take these. I'll move along.", "realmoflight1-lari-62", false);
 
-        //Realm of lights 2 - Taproot
+s.state("Realm of lights 2 - Taproot");
         s.addSound("[1/5] Lari: ...oh. Soldier, you're back. Ehm...I have to say, I'm...rather busy at the moment.", "realmoflight2-lari-1", false);
         s.addSound("[2/5] Lari: I have...important things to do. This accursed Decay...I have to end it. This all needs to stop.", "realmoflight2-lari-2", false);
         s.addSound("[3/5] Lari: I am thankful for your aid with the...the Grootslang, but I do not believe you will be able to help with this- Simply a matter of scale.", "realmoflight2-lari-3", false);
@@ -2917,7 +2917,7 @@ public class Sounds {
         s.addSound("[1/2] ???: My pulse, your light is brilliant... It has shone upon Lari, and soon her light will shine my way...", "realmoflight4findingthelight-orphion-3", false);
         s.addSound("[2/2] ???: Enter the roots, and witness the path to my realm. And then, prepare yourself. Muster your most blinding light...", "realmoflight4findingthelight-orphion-4", false);
 
-        //Realm of light 5 - the realm of light
+s.state("Realm of light 5 - the realm of light");
         s.addSound("[2/8] Lari: soldier... Achara... I do not believe I can ever atone for what I have done to you. An apology simply isn't enough.", "realmoflight5-lari-1", false);
         s.addSound("[3/8] Lari: As infuriating as what you did was, you were following orders... I had every right to be angry, but to try and take your life was ten steps too far.", "realmoflight5-lari-2", false);
         s.addSound("[4/8] Lari: Even though it is not enough, I will say I am sorry for the pain I caused you. The Guardian was right, in the end.", "realmoflight5-lari-3", false);
@@ -3022,7 +3022,7 @@ public class Sounds {
         s.addSound("10/10orphion", "nexusoflight-orphion-10", true);
         s.addSound("[1/2] Orphion: Enough. My gratefulness does not exceed my patience. Let this act as a warning, my pulse.", "nexusoflight-orphion-11", false);
 
-        //Shadow of the beast
+s.state("Shadow of the beast");
         s.addSound("[1/7] Dereg: Oh, you look tough. You must be one of those humans I keep hearing about, right? People talk about your kind all the time.", "shadowofthebeast-dereg-1", false);
         s.addSound("[2/7] Dereg: You know, that you're all scrappers. Tough as nails, and willing to kill all sorts of beasts, you know?", "shadowofthebeast-dereg-2", false);
         s.addSound("[3/7] Dereg: I think you know what I'm getting at. I saw some massive thing lumbering around the swamp one night! Tall as the trees, it was.", "shadowofthebeast-dereg-3", false);
@@ -3092,7 +3092,7 @@ public class Sounds {
         s.addSound("[6/7] Dereg: The weapon merchant in Olux researches cryptids as a hobby, and that beast seemed one-of-a-kind to me.", "shadowofthebeast-dereg-13", false);
         s.addSound("[7/7] Dereg: You should show him that bone powder! He might have some good gear for you.", "shadowofthebeast-dereg-14", false);
 
-        //Zhight island
+s.state("Zhight island");
         s.addSound("[1/8] Zhight: Hello, esteemed tourist sir or madame! I see you have found my illustrious resort, Zhight Island!", "zhightisland-zhight-1", false);
         s.addSound("[2/8] Zhight: Normally, you'd need a reservation to stay here, but our human visitors are ALWAYS welcome! Ehm...", "zhightisland-zhight-2", false);
         s.addSound("[3/8] Zhight: ...w-well, actually...wait, no, it's nothing, nothing, friend! I guarantee you'll enjoy your stay here!", "zhightisland-zhight-3", false);
@@ -3139,7 +3139,7 @@ public class Sounds {
         s.addSound("[6/7] Zhight: So here! The repairs at the Zhight Grand Exchange and Zhight Treasure Tour have just finished, so you can head in and see the fruits of your labor!", "zhightisland-zhight-14", false);
         s.addSound("[7/7] Zhight: And, as a token of my thanks, some exclusive currency for our resort, Zhight Money, on the house and just for you! I hope you enjoy your stay!", "zhightisland-zhight-15", false);
 
-        //The Passage
+s.state("The Passage");
         s.addSound("[1/3] Wirt: Not so fast, you!", "thepassage-wirt-1", false);
         s.addSound("[2/3] Wirt: My dad said I can't let any strangers through this passage!", "thepassage-wirt-2", false);
         s.addSound("[3/3] Wirt: If you want access, talk to him, he's the recruiter of the town! His name is Ildan. He's just southwest of here.", "thepassage-wirt-3", false);
@@ -3486,7 +3486,7 @@ public class Sounds {
         s.addSound("[4/5] Elphaba: Here- it's some of my own personal spending money, as a thank-you gift.", "reclaimingthehouse-elphaba-40", false);
         s.addSound("[5/5] Elphaba: Alright everyone, let's get this place ship-shape! Everything needs to be repaired in case of another attack!!", "reclaimingthehouse-elphaba-41", false);
 
-        //Redbeards Booty
+s.state("Redbeards Booty");
         s.addSound("[1/6] Marston: Ah, ahoy matey!", "redbeardsbooty-marston-1", false);
         s.addSound("[1/5] Argus: Cor lad...ye don' look like a pirate ta me, and I be but a young lass!", "redbeardsbooty-argus-1", false);
         s.addSound("[2/5] Martim: 's right, bucko. Who be ye, bargin' into our home in yer fancy armour 'n whatnot?", "redbeardsbooty-martim-1", false);
@@ -4172,7 +4172,7 @@ public class Sounds {
         s.addSound("[1/2] Grandon: This building has such rich history, it would've been an absolute shame to have lost it over just a pair of silly old boots.", "lostsoles-grandon-30", false);
         s.addSound("[2/2] Grandon: I mean, what would the Sodetas have thought? Well, I guess they probably wouldn't come all the way over from the Guild Hall to check anymore, but...still.", "lostsoles-grandon-31", false);
 
-        //Memory Paranoia
+s.state("Memory Paranoia");
         s.addSound("[1/10] Atisun: Oh, a human? If I could beg your pardon a moment... could I talk to you about the mansion here?", "memoryparanoia-atisun-1", false);
         s.addSound("[1/1] Atisun: All you have to do, is go in there and find answers. I'm sure the past won't haunt us both. Something happened here all those years ago... I want to know what.", "memoryparanoia-atisun-2", true);
         s.addSound("[1/3] Servant: Mr. Caritat is always writing so intensely in that book... I do wonder what he could be saying.", "memoryparanoia-servant-1", true);
@@ -4286,7 +4286,7 @@ public class Sounds {
         s.addSound("[2/2] Axelus: Well, this is probably a bit of thankless work we just did, but so is a lot of work. Let's get out of here. We can talk outside.", "fromthemountains-axelus-36", true);
         s.addSound("[1/4] Axelus: Well, I say the work is thankless, but that won't stop me, anyways. Thank you for the help, human- This would've been overwhelming alone.", "fromthemountains-axelus-37", false);
 
-        //Temple of Legends
+s.state("Temple of Legends");
         s.addSound("[1/10] Garull: GWUH! Oh god, don't scare me like that! Who... Who even are you?!", "templeoflegends-garull-1", false);
         s.addSound("[1/4] Garull: Thank you for listening to me about not being so quiet coming over here. I'm guessing you've got everything?", "templeoflegends-garull-2", false);
         s.addSound("[1/3] Garull: Oh, a visitor? Interesting. I thought I only knew about this cave, considering I was called crazy by my master.", "templeoflegends-garull-3", false);
@@ -4307,7 +4307,7 @@ public class Sounds {
         s.addSound("[1/6] Rayshyroth: Oh? Well, greetings. What brings you to our quiet lonely island, let alone all the way up here?", "templeoflegends-rayshyroth-1", false);
         s.addSound("[1/9] Rayshyroth: Aha, you're back with the Sky Vapor! Sorry about the climb, even I find it rather inconvenient at times.", "templeoflegends-rayshyroth-2", false);
 
-        //Grand Youth
+s.state("Grand Youth");
         s.addSound("[1/5] Monte: Oh, what am I to do...? How am I to be our next elder if I cannot even help him... Oh? Ehm, hello, stranger.", "grandyouth-monte-1", false);
         s.addSound("[2/5] Monte: You most likely heard me. Our elder has fallen ill of some vile disease... I am to be our next elder, but I am not yet ready.", "grandyouth-monte-2", false);
         s.addSound("[3/5] Monte: We have tried everything we can think of, but our healers and shamans have failed to cure him. We had some hope, however...", "grandyouth-monte-3", false);
@@ -4337,7 +4337,7 @@ public class Sounds {
         s.addSound("[3/4] Monte: From the bottom of my heart, thank you. I know we surely will not be able to compensate you for the price of the water...", "grandyouth-monte-8", false);
         s.addSound("[4/4] Monte: ...but here. This is the summation of our village's riches. For aiding us, consider it yours.", "grandyouth-monte-9", false);
 
-        //Lazarus Pit
+s.state("Lazarus Pit");
         s.addSound("[1/6] Burtur: Ah, one of you adventurin' types, huh? We see a lot of you around here... Going in and out as you please. Must be a nice life.", "lazaruspit-burtur-1", true);
         s.addSound("[2/6] Burtur: Though, if you could spare some time, the town could use you-", "lazaruspit-burtur-2", true);
         s.addSound("[3/6] Burtur: Wait, already?! It's only been a day since last! How insatiable are they...?", "lazaruspit-burtur-3", true);
@@ -4412,7 +4412,7 @@ public class Sounds {
         s.addSound("[2/2] Likeru: Well, if you ever want to try again and see if I'm wrong go ahead, but please don't dive into the pond again?", "shatteredminds-likeru-15", false);
         s.addSound("[1/1] Likeru: Mmm, might not be strong enough mentally... Hey, come back around Level 70, I have something to try.", "shatteredminds-likeru-16", false);
 
-        //Haven Antiquity
+s.state("Haven Antiquity");
         s.addSound("[1/6] Cinfras: Hey there adventurer, can I speak with you for a second? I need you to do a spot of detective work for me.", "havenantiquity-cinfras-1", false);
         s.addSound("[2/6] Cinfras: My grandfather once told me how beautiful this place was, and how to visit here if I wanted to relax.", "havenantiquity-cinfras-2", false);
         s.addSound("[3/6] Cinfras: But as you can see, this island is the least bit relaxing. It is a sorrowful place, corrupted and dark.", "havenantiquity-cinfras-3", false);
@@ -4598,7 +4598,7 @@ public class Sounds {
         s.addSound("[3/3] Entamis: You musn't let me be reborn a creature of evil...", "troubledtribesmen-entamis-2", true);
         s.addSound("[1/4] Inrekei: Hello again. I am grateful you have returned safely. You don't need to say anything, though. I no longer can sense Entamis. I know she has died...", "troubledtribesmen-inrekei-3", false);
 
-        //Hollow Serenity
+s.state("Hollow Serenity");
         s.addSound("Eileen, Eileen... That girl never listens to me! Her own mother!", "hollowserenity-katarin-1", false);
         s.addSound("Every day, I find books sticking out of the bookshelves! And she keeps on coloring random letters in them...", "hollowserenity-katarin-2", false);
         s.addSound("She told me that those are her favorite books, there's some sort of 'clue' in them for... something.", "hollowserenity-katarin-3", false);
@@ -5055,7 +5055,7 @@ public class Sounds {
         s.addSound("[1/4] Korben: ...you... You are... You would lie to the guards and say I perished in the chase? You will keep my identity secret?", "aldoreisvalleypart1-korben-12", false);
         s.addSound("[1/3] Elf Guard: Traveler, I must remind you- The doors shall remain shut until the criminal has been found.", "aldoreisvalleypart1-elfguard-2", false);
 
-        //aldoreissecretpart2
+s.state("aldoreissecretpart2");
         s.addSound("[1/8] Legolus: You're that human Elrund let into Aldorei Town, right? How wonderful. I could actually use your opinion on a matter. Fresh eyes are always better on an old scene.", "aldoreissecretpart2-legolus-1", false);
         s.addSound("[1/5] Legolus: You've returned! But with a grim expression... was Soway not there? He couldn't have just vanished into thin air.", "aldoreissecretpart2-legolus-2", false);
         s.addSound("[1/1] Legolus: Do you not remember your objective? You probably wrote it down in your quest book so you wouldn't forget.", "aldoreissecretpart2-legolus-3", false);
@@ -5083,13 +5083,13 @@ public class Sounds {
         s.addSound("[1/1] Togak: You possess a light... one that glows even brighter than Aldorei. Continue your travels and show that light to the rest of Gavel.", "aldoreissecretpart2-togak-15", false);
         s.addSound("[1/1] Togak: Do you not remember what I have told you? Check your quest book if your memory fails you.", "aldoreissecretpart2-togak-16", false);
 
-        //Reincarnation
+s.state("Reincarnation");
         s.addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnation-bob-1", true);
         s.addSound("[1/13] Batelu: Hello adventurer! I see you want to solve the mystery of Bob's tomb also? Glad to meet you.", "reincarnation-batleu-1", false);
         s.addSound("[1/2] Batelu: Wonderful! We can now open the passage to the true tomb of Bob...", "reincarnation-batleu-2", false);
         s.addSound("[1/5] Batelu: Bob's Seal of Approval? Oh my goodness!", "reincarnation-batleu-3", false);
 
-        //Acquiring credentials
+s.state("Acquiring credentials");
         s.addSound("[1/6] Officer: I'm sorry sir, but I can't just give you a new passport... You'd need approval from-...", "acquiringcredentials-officer-1", false);
         s.addSound("[2/6] Doan: But sir, my passport was stolen! I have a flight to Detlas in under 30 minutes. I really need one, quick... ", "acquiringcredentials-doan-1", false);
         s.addSound("[3/6] Officer: I've already told you where you need to go to get a new one. Next in line, please!", "acquiringcredentials-officer-2", false);
@@ -5175,7 +5175,7 @@ public class Sounds {
         s.addSound("[2/3] Doan: So that's our intial bid. Now we need to ask for a higher bid, remember? We can't always talk to the same merchant or they'll lose interest...", "acquiringcredentials-doan-36", false);
         s.addSound("[3/3] Doan: And we can't talk to more than 5 people for a raise or they might get angry.", "acquiringcredentials-doan-37", false);
 
-        //Ultimate Weapon
+s.state("Ultimate Weapon");
         s.addSound("[1/8] Dodegar: I'm glad you came along, I could do with a little help if you're not too busy.", "ultimateweapon-dodegar-1", false);
         s.addSound("[2/8] Dodegar: I'm Dodegar Bandysnoot, the world famous Hobbit swordsmith! Perhaps you've heard of me?", "ultimateweapon-dodegar-2", false);
         s.addSound("[3/8] Dodegar: No? Oh... Well, I've had an idea about how I could make the best weapon that the world has ever seen!", "ultimateweapon-dodegar-3", false);
@@ -5424,7 +5424,7 @@ public class Sounds {
         s.addSound("[7/7] Big Butch: Well, it's not like the people of Gavel will find out where their food really comes from, the secret dies with you! They will forever more live in blissful ignorance!", "thehungerofgertspart2-bigbutch-11", true);
         s.addSound("[1/3] Gerten Chief Lobo: Gert back? Did stop the farm? Bad villager must die!", "thehungerofgertspart2-gertenchieflobo-2", false);
 
-        //Purple and blue
+s.state("Purple and blue");
         s.addSound("[1/10] Korun: W-Woah there, short nose! What are you doing, barging into my home?!", "purpleandblue-korun-1", false);
         s.addSound("[2/10] Korun: Did Cinfras send you? Well, welcome to Lake Gylia! I could actually make use of some assistance.", "purpleandblue-korun-2", false);
         s.addSound("[3/10] Korun: The magic here in this place is so potent; you can actually see the mystical properties!", "purpleandblue-korun-3", false);
@@ -5536,7 +5536,7 @@ public class Sounds {
         s.addSound("[2/2] Korun: Keep it up, you seem to be getting close!", "purpleandblue-korun-61", false);
 
 
-        //Fallen Delivery
+s.state("Fallen Delivery");
         s.addSound("[1/1] Bricot: ...Level 79...please.", "fallendelivery-bricot-1", false);
         s.addSound("[1/4] Bricot: Aaah what am I gonna do what am I gonna do what am I gonna do what am I gonna doooo! There’s no way I can solve this...", "fallendelivery-bricot-2", false);
         s.addSound("[2/4] Bricot: Wh- HUMAN! No, no, no! I don't need a demolitions service! The airship downing over my house has done that enough- Hey, wait!", "fallendelivery-bricot-3", false);
@@ -5765,7 +5765,7 @@ public class Sounds {
         s.addSound("[6/7] Syni: That thing took me four years to repair. It’s good as new now- it can even channel lightning just like the legends. An effort well worth the trouble!", "fromthebottom-syni-17", false);
         s.addSound("[7/7] Syni: But the Dogun magic fascinates me- I’ve got to figure out how those Flameshooters work! I’ll bet I can reverse-engineer them, I just need a working model...and now I have it!", "fromthebottom-syni-18", false);
 
-        //The Qira Hive
+s.state("The Qira Hive");
         s.addSound("[1/13] Yansur: I see another challenger has found their way to The Qira Hive!", "theqirahive-yansur-1", false);
         s.addSound("[1/1] Qira: Begin, the Thunder Division! Strike quickly and move on, for those within will warp your very mind should you stray for too long!", "theqirahive-qira-1", true);
         s.addSound("[1/1] ????: Heeheehahaaaah! I see you! You humans have such easily influenced minds, but I'll settle for beating you within an inch of your life! Come through, come through!!!", "theqirahive-psychomancer-1", true);
@@ -5789,7 +5789,7 @@ public class Sounds {
         s.addSound("[1/1] Qira: ...you. You...ahaha...I like you. You're capable enough... Perhaps we could be allies in the future...", "theqirahive-qira-7", true);
         s.addSound("[1/14] Yansur: How cowardly! After defeating so many in the Hive, and receiving such praise, you've the gall to upstand Mistress's request?  ", "theqirahive-yansur-7", false);
 
-        //Generals Orders
+s.state("Generals Orders");
         s.addSound("[1/8] Private Tylas: ...snrrrk... ... ... ...mimimimimi... ... ... ...snrrrk... ... ... ...mimimimimi...", "generalsorders-privatetylas-1", false);
         s.addSound("[2/8] Private Tylas: ...snrrrk... ...mrrf. ...five more minnns... ...snrrrk...", "generalsorders-privatetylas-2", false);
         s.addSound("[3/8] Private Tylas: ...wh...? Oh...OH! Oh oh oh! Ahem! Yes, um! Absolutely sir! Right away sir! I don't think you're crazy at all sir!", "generalsorders-privatetylas-3", false);
@@ -5972,7 +5972,7 @@ public class Sounds {
         s.addSound(">Calculating destination...", "questionmark-computer-18", true);
         s.addSound("[1/6] Mehme: Welcome to my wonderful wooden home!", "questionmark-mehme-1", false);
 
-        //The thanos depository
+s.state("The thanos depository");
         s.addSound("[1/12] Coulmis: This is just a disaster... I pray nothing goes awry with the recovery team.", "thethanosdepository-coulmis-1", false);
         s.addSound("[2/12] Coulmis: I'd never be able to live it off if I'm responsible for more deaths.", "thethanosdepository-coulmis-2", false);
         s.addSound("[3/12] Coulmis: But I must do what it takes to protect Thanos from any more disaster.", "thethanosdepository-coulmis-3", false);
@@ -6199,7 +6199,7 @@ public class Sounds {
         s.addSound("[2/3] Peli: Again, as I already told you a hundred times, you can't just pick any random old gate and pretend it's yours!", "amaraudersdues-peli-13", false);
         s.addSound("[3/3] Peli: Anyway, human, do you finally have some news? If not, I suggest you get back out there. Check your quest book if you've forgotten what to do", "amaraudersdues-peli-14", false);
 
-        //The Canyon Guides
+s.state("The Canyon Guides");
         s.addSound("[1/5] Seluc: Who's that? Am I finally being rescued!?", "thecanyonguides-seluc-1", false);
         s.addSound("[2/5] Seluc: Wait, a human! Ugh, I shouldn’t have gotten my hopes up. What did you do, take a day of cliff diving?", "thecanyonguides-seluc-2", false);
         s.addSound("[3/5] Seluc: If you really did intend to rescue me, you've assuredly wasted both our time.", "thecanyonguides-seluc-3", false);
@@ -6502,7 +6502,7 @@ public class Sounds {
         s.addSound("[2/3] Chief Clight: We just gotta be thankful that no one died. Forget about the coal, this is what matters most. If only...", "canarycalls-clight-60", false);
         s.addSound("[3/3] Chief Clight: ...Never mind. Once the elevator is repaired, you will be able to access the mine.", "canarycalls-clight-61", false);
 
-        //Desperate Metal
+s.state("Desperate Metal");
         s.addSound("[1/7] Nettik: What are these? I have nothing to do with them!", "desperatemetal-nettik-1", false);
         s.addSound("[1/1] Nettik: I'm sorry it ended up like this, you should've just ignored that old man.", "desperatemetal-nettik-2", true);
         s.addSound("[1/7] Phinas: Oh my...", "desperatemetal-phinas-1", false);
@@ -6836,7 +6836,7 @@ public class Sounds {
         s.addSound("[1/1] Irlok: You are truly an amazing warrior. Thank you for putting an end to Krolton.", "beyondthegrave-irlok-18", false);
         s.addSound("[1/1] Irlok: I have written the coordinates of the cave Krolton hides in, in your quest book.", "beyondthegrave-irlok-19", false);
 
-        //The hidden city
+s.state("The hidden city");
         s.addSound("[1/14] Narder: A human? Agh! Don't worry about getting me medical attention, I've got this under control...", "thehiddencity-narder-1", false);
         s.addSound("[1/4] Curious Villager: Hm? Oh, a fellow adventurer, I see! I'm sorry, but this discovery is mine to make. There's something strange about that door...", "thehiddencity-curiousvillager-1", false);
         s.addSound("[1/1] Curious Villager: Gweh! I just had to go running my mouth about the cave collapsing! I'm out- if you have any sense you'll leave too!", "thehiddencity-curiousvillager-2", true);
@@ -7175,7 +7175,7 @@ public class Sounds {
         s.addSound("[4/4] Relend: AAARRGHHHHH!", "fantasticvoyage-relend-76", false);
         s.addSound("[2/2] ???:", "fantasticvoyage-theeye-2", false);
 
-        //The feathers fly part 1
+s.state("The feathers fly part 1");
         s.addSound("[1/7] ???: Oh?! Hold on, is anyone there..!", "thefeathersflypart1-ava-1", true);
         s.addSound("[2/7] Ava: Why hello there! Whatcha doin' here? I'm Ava!", "thefeathersflypart1-ava-2", false);
         s.addSound("[3/7] Ava: Want a quick job? How 'bout helpin' me out?! That was perfect timing!", "thefeathersflypart1-ava-3", false);
@@ -7388,7 +7388,7 @@ public class Sounds {
         s.addSound("[2/3] Avos Chieftain: Is that another broken machine?", "thefeathersflypart1-avoschieftain-40", false);
         s.addSound("[1/1] Avos Chieftain: Just show me what you're interested about.", "thefeathersflypart1-avoschief-8", false);
 
-        //the feathers fly part 2
+s.state("the feathers fly part 2");
         s.addSound("[1/5] Gardener: An audience? Oh, you're one of those, I see...", "thefeathersflypart2-gardener-1", false);
         s.addSound("[1/5] Gardener: ...Huh? An audience? Are you crazy?", "thefeathersflypart2-gardener-2", false);
         s.addSound("[1/5] Weaponsmith: Oh, are you interested in getting an audience too?!", "thefeathersflypart2-weaponsmith-1", false);
@@ -8040,7 +8040,7 @@ public class Sounds {
         s.addSound("[1/1] Efena: Oh, uh, well, bye?!", "thefeathersflypart2-efena-98", false);
         s.addSound("[1/1] Efena: See ya!", "thefeathersflypart2-efena-99", false);
 
-        //Dwarves and doguns part 1
+s.state("Dwarves and doguns part 1");
         s.addSound("[1/3] Lozeg: Interesting to see a Human wanting to see a Dwarven play!", "dwarvesanddogunspart1-lozeg-1", false);
         s.addSound("[1/1] Lozeg: Just take a seat and enjoy the show.", "dwarvesanddogunspart1-lozeg-2", true);
         s.addSound("[1/1] Axelus: Wait, is that- Hey, soldier! It's so good to see you!", "dwarvesanddogunspart1-axelus-1", true);
@@ -8138,7 +8138,7 @@ public class Sounds {
         s.addSound("[5/6] Plario: Human...if you promise to help us...I will grant you access to...our secret elevators... You can get up and...down the heights with those.", "dwarvesanddogunspart1-plario-7", true);
         s.addSound("[6/6] Plario: Please return to...us when you reach level 92. Take this...badge so the...others recognize you...as an ally. One of the elevators is...to the south.", "dwarvesanddogunspart1-plario-8", true);
 
-        //Dwarves and doguns part 2
+s.state("Dwarves and doguns part 2");
         s.addSound("[1/3] Dogun Chieftain: You are so young...to be fighting...a war so old. Still...it is appreciated.", "dwarvesanddogunspart2-dogunchieftain-1", false);
         s.addSound("[1/16] Dogun Chieftain: I am sorry...to welcome you all...in such troubled times.", "dwarvesanddogunspart2-dogunchieftain-2", true);
         s.addSound("[2/16] Dogun Chieftain: We thought...we could hide in safety... But there is...no place left to hide. ", "dwarvesanddogunspart2-dogunchieftain-3", true);
@@ -8197,7 +8197,7 @@ public class Sounds {
         s.addSound("[1/1] Axelus: Try to destroy each machine. Stone is used for ammo while tnt will blow up the machine. Good luck!", "dwarvesanddogunspart2-axelus-36", true);
         s.addSound("[1/1] Axelus: I'll meet you at the end of the slums.", "dwarvesanddogunspart2-axelus-37", true);
 
-        //Dwarves and doguns part 3
+s.state("Dwarves and doguns part 3");
         s.addSound("[1/9] Korzim: We...have an issue. A dire one... Where is...Axelus at a time...like this?", "dwarvesanddogunspart3-korzim-1", false);
         s.addSound("[4/9] Korzim: He is trying to...reason with the Dwarven King? There is...no one else...then. You... You will have to...help.", "dwarvesanddogunspart3-korzim-2", false);
         s.addSound("[1/5] Korzim: Soldier...I take back my statement. They have already begun... There cannot be reasoning.", "dwarvesanddogunspart3-korzim-3", true);
@@ -8281,7 +8281,7 @@ public class Sounds {
         s.addSound("[6/11] Dogun Chieftain: All hostilities...will end. My people will...be free to roam the caverns. It has been...too long.", "dwarvesanddogunspart4-dogunchieftain-7", true);
         s.addSound("[7/11] King of Rodoroc: And the entombed Doguns at Courag will be reconstituted, as well, supposing that is a possibility.", "dwarvesanddogunspart4-kingofrodoroc-10", false);
 
-        //One Thousand Meters Under
+s.state("One Thousand Meters Under");
         s.addSound("[1/3] The Secretary: Hello, welcome to Ynnos' facility.", "onethousandmetersunder-secretary-1", false);
         s.addSound("[1/11] Scientist Ynnos: *Ahem* Welcome, everyone.", "onethousandmetersunder-scientistyvnoss-1", false);
         s.addSound("[1/10] Scientist Ynnos: You survived! Where is everyone else?", "onethousandmetersunder-scientistyvnoss-2", false);
@@ -8308,7 +8308,7 @@ public class Sounds {
         s.addSound("[1/13] Celuuse: Whoooooooo are you!?", "onethousandmetersunder-celuuse-1", false);
         s.addSound("[1/8] Rontaid: WHAT...WHO...Humans in the void!?", "onethousandmetersunder-rontaid-1", false);
 
-        //Recipe for Disaster
+s.state("Recipe for Disaster");
         s.addSound("[1/8] Chef Hamsey: Ah, bonjour! Welcome to my restaurant, allow me to lead you to your seat-", "recipefordisaster-chefhamsey-1", false);
         s.addSound("[2/8] Chef Hamsey: Oh, do my eyes decieve me? Serais-ce possible?!", "recipefordisaster-chefhamsey-2", false);
         s.addSound("[3/8] Chef Hamsey: It is you... the novice soldier turned hero of legends! Who would have thought?!", "recipefordisaster-chefhamsey-3", false);
@@ -8573,7 +8573,7 @@ public class Sounds {
         s.addSound("[1/1] Trials Overseer: Greetings, your majesty!", "royaltrials-trialsoverseer-40", false);
 
 
-        //Hero of Gavel
+s.state("Hero of Gavel");
         s.addSound("[1/6] Excited Fan: Hmm... I might have just enough for one tier 3... Why are you standing there?", "heroofgavel-excitedfan-1", false);
         s.addSound("[1/1] Excited Fan: I've been saving up for this scavenger hunt all year, there's no way I can lose!", "heroofgavel-excitedfan-2", false);
         s.addSound("[1/7] Scavenger Hunt Collector: Tickets for sale! You! Would you like to join the great Siegfried Scavenger Hunt?", "heroofgavel-scavengerhuntcollector-1", false);
@@ -8914,7 +8914,7 @@ public class Sounds {
         s.addSound("[7/7] Aledar: Let’s take some time to gather ourselves before we press on. I’ll meet you on the other side of town.", "ajourneybeyond-aledar-95", false);
         s.addSound("[1/1] Aledar: Ouch! I got hit! Be careful, soldier!", "ajourneybeyond-aledar-96", false);
 
-        //A journey Further
+s.state("A journey Further");
         s.addSound("[1/2] Aledar: Alright, let's go. I'll tell you more about our journey on the way.", "ajourneyfurther-aledar-1", false);
         s.addSound("[2/2] Aledar: We should try to follow the path as closely as we can. You lead, I'll follow.", "ajourneyfurther-aledar-2", false);
         s.addSound("[1/2] Aledar: Stop! Did you hear that?", "ajourneyfurther-aledar-3", false);
@@ -9015,7 +9015,7 @@ public class Sounds {
         s.addSound("The only one holding us back is us.", "pointofnoreturn-soul-16", true);
         s.addSound("[1/5] Lutho Citizen: You- you chose to come back. I saw your eyes disappear, briefly.", "pointofnoreturn-luthocitizen-5", false);
 
-        //A hunters Calling
+s.state("A hunters Calling");
         s.addSound("???: ...you arrive. You search... To what end?", "ahunterscalling-gatekeeper-1", false);
         s.addSound("[1/4] Bak'al: We destroy Ragni today. The great fortress will fall.", "ahunterscalling-bakal-1", true);
         s.addSound("[2/4] Bak'al: I will find their protector, Bob. You each will engage the guards and city dwellers. 10 citizens. ", "ahunterscalling-bakal-2", true);
@@ -9230,7 +9230,7 @@ public class Sounds {
         s.addSound("[2/2] Talking Mushroom: NOW THAT I THINK OF IT, MOST OF THE STRUCTURES WE COME ACROSS LOOK LIKE THAT TOWE-", "talkingmushroom-guildhall-2", true);
 
 
-        //Sea skipper
+s.state("Sea skipper");
         s.addSound("[1/1] Seaskipper Captain: Where are ya headed? Nemract, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-1", true);
         s.addSound("[1/1] Seaskipper Captain: Where are ya headed? Rooster Island, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-2", true);
         s.addSound("[1/1] Seaskipper Captain: Where are ya headed? Bear Zoo Island, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-3", true);
@@ -9317,12 +9317,12 @@ public class Sounds {
         s.addSound("[1/1] Seaskipper: There you go. Come again!", "seaskipper-seaskippercaptain-84", true);
         s.addSound("[1/4] Seaskipper Captain: Ohoh, that reminds me! I’ve got a letter for you - special delivery from a Corkian fellow. White hair, goggles, the lot.", "seaskipper-seaskippercaptain-85", true);
 
-        //Decrepit Sewers
+s.state("Decrepit Sewers");
         s.addSound("[1/1] ???: You dare enter these sewers, human? These pipes once hid the civilians of Ragni during raids... Now it just holds corpses.", "decriptsewers-witherehead-1", true);
         s.addSound("[1/1] ???: The forces of the Humans could not save me when I hid here, and they can't save you either.", "decriptsewers-witherehead-2", true);
         s.addSound("[1/1] Witherhead: You persist through the sludge, now you will join me like the rest!", "decriptsewers-witherehead-3", true);
 
-        //Corrupted Decrepit Sewers
+s.state("Corrupted Decrepit Sewers");
         s.addSound("[1/1] ???: You dare enter these sewers, human? This mistake will cost you your life.", "cds-witherehead-1", true);
         s.addSound("[1/1] ???: ... How foolish of you... to come back here... after what happened.", "cds-witherehead-2", true);
         s.addSound("[1/1] Corrupted Witherhead: You... you've come HERE before. You shouldn't be alive....", "cds-witherehead-3", true);
@@ -9367,38 +9367,38 @@ public class Sounds {
         s.addSound("[2/2] ???: Aahrg, get the human! We can't let it pass by again!", "darkdescentdungeon-charon-6", true);
         s.addSound("[1/1] Corrupted Charon: Do you really think I will fall for that one again? An army likes yours is childsplay afor me! However, how do you plan to defeat an army that is already dead?", "darkdescentdungeon-charon-7", true);
 
-        //Sand Swept tomb
+s.state("Sand Swept tomb");
         s.addSound("[1/1] ???: Who is the fool that has opened this accursed cage?", "sst-hashr-1", true);
         s.addSound("[1/2] ???: You are not of the old empire... Not one of those who forced me in here.", "sst-hashr-2", true);
         s.addSound("[2/2] ???: Why do you take arms against me? I only tried to save my people from my father!", "sst-hashr-3", true);
         s.addSound("[1/1] Hashr: If you insist on ending me, then I'll dispose of you like I did that wretched emperor!", "sst-hashr-4", true);
 
-        //Corrupted Sand Swept tomb
+s.state("Corrupted Sand Swept tomb");
         s.addSound("[1/1] ???: The fool returns... The cage shall claim you too.", "csst-hashr-1", true);
         s.addSound("[1/2] ???: The glorious sands run red... I cannot understand it. I cannot understand you.", "csst-hashr-2", true);
         s.addSound("[2/2] ???: Yet... New power runs forth at my fingertips. I may yet save this wretched land...", "csst-hashr-3", true);
         s.addSound("[1/1] Hashr: I will rule the red sands with this power under my control!", "csst-hashr-4", true);
 
-        //Ice barrows
+s.state("Ice barrows");
         s.addSound("[1/2] Ghostly Voice: Soldier! I'm not sure it is wise to be here... An icy death awaits you if you proceed. A death that I will cause..", "icebarrows-ghostlyvoice-1", true);
         s.addSound("[1/2] Ghostly Voice: You must think you can save me? There is no cure for what I have.", "icebarrows-ghostlyvoice-2", true);
         s.addSound("[1/2] Ghostly Voice: I froze this land to allow it to heal.. People did not understand.. They came for me here, seeking revenge.", "icebarrows-ghostlyvoice-3", true);
         s.addSound("[1/1] Ghostly Voice: Even if you think you can cure me.. I can not allow you to try for if it were to fail my corrupted body would wreak havoc on the world!", "icebarrows-ghostlyvoice-4", true);
 
-        //Corrupted Ice barrows
+s.state("Corrupted Ice barrows");
         s.addSound("[1/2] Ghostly Voice: I told you it would fail.", "cib-ghostlyvoice-1", true);
         s.addSound("[2/2] Ghostly Voice: Your noble deeds have allowed the darkness to take over my mind.", "cib-ghostlyvoice-2", true);
         s.addSound("[1/2] Ghostly Voice: It all seems clear to me now.. The struggle for life... It’s futile. There need only be peaceful darkness.", "cib-ghostlyvoice-3", true);
         s.addSound("[1/1] Ghostly Voice: I will not let you stop me!", "cib-ghostlyvoice-4", true);
 
-        //Undergrowth ruins
+s.state("Undergrowth ruins");
         s.addSound("[1/1] ???: I can sense your life force... it is very powerful. I shall take pleasure in draining it from your body!", "undergrowthruins-slykaar-1", true);
         s.addSound("[1/2] Slykaar: Troms used to beckon to my every need and desire... Even sacrifice it's own children for my magical defense!", "undergrowthruins-slykaar-2", true);
         s.addSound("[1/2] Slykaar: Now the city will truly get to witness what power they have discarded... They will see they made the wrong call.", "undergrowthruins-slykaar-3", true);
         s.addSound("[1/1] Slykaar: Nothing and no one will stop me from sieging the city. Not even you!", "undergrowthruins-slykaar-4", true);
         s.addSound("[1/2] Slykaar: You have made the sacrifices of many be in total vain!", "undergrowthruins-slykaar-5", true);
 
-        //Corrupted Undergrowth ruins
+s.state("Corrupted Undergrowth ruins");
         s.addSound("[1/1] ???: More life...familiar life... It’s you again. Isn’t it?", "cur-slykaar-1", true);
         s.addSound("[1/2] Slykaar: Even in death... Wasn’t I right? Wasn’t I ALWAYS right? The corruption is here...", "cur-slykaar-2", true);
         s.addSound("[1/2] Slykaar: No saviours, no heroes. You being alive is nothing short of a miracle.", "cur-slykaar-3", true);
@@ -9442,7 +9442,7 @@ public class Sounds {
         s.addSound("[1/1] Antikythera Main Core: SO YOU FOUND ME. CONGRATULATIONS. NOW PLEASE KINDLY LAY DOWN IN A CIRCUIT AND PRETEND TO BE A CONDUCTOR UNTIL YOUR BODY'S VITAL PROCESSES PERMANENTLY SHUT DOWN.", "fallenfactory-antikytherasupercomputer-33", true);
 
 
-        //Non quest npc
+s.state("Non quest npc");
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
         s.addSound("[1/4] Ragni Guard: Welcome to Ragni, new recruit. How's Fruma these days? Ah right, directions.", "nonquestnpc-mainragniguard-1", false);
         s.addSound("[1/2] Ragni Guard: Welcome back, I suppose you're a Wynn citizen now. I've heard quite a few things about your deeds throughout the province.", "nonquestnpc-mainragniguard-2", false);
