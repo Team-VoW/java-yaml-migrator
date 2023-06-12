@@ -16,18 +16,7 @@ public class SoundsHandler {
     }
 
     public void done() {
-        if (configFile != null) {
-            try {
-                configFile.flush();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-            try {
-                configFile.close();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        }
+        super_cool_thing();
     }
 
     private boolean otherStart = false;
@@ -37,18 +26,7 @@ public class SoundsHandler {
             otherStart = true;
         }
 
-        if (configFile != null) {
-            try {
-                configFile.flush();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-            try {
-                configFile.close();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        }
+        super_cool_thing();
 
         if (otherStart) {
             soundsFolder = new File(out, "other/" + name + "/sounds");
@@ -78,21 +56,39 @@ public class SoundsHandler {
         }
     }
 
-    public void addSound(String id, String s1, boolean onPlayer, int fallOff) {
-        try {
-            if (onPlayer) {
-                configFile.write("\t\"" + id + "\":\n");
-                configFile.write("\t\tlocation: player\n");
-                configFile.write("\t\tfile: \"" + s1 + "\"\n");
-                configFile.write("\t\tfallOff: " + fallOff + "\n");
-            } else {
-                configFile.write("\t\"" + id + "\":\n");
-                configFile.write("\t\tfallOff: " + fallOff + "\n");
+    private void super_cool_thing() {
+        if (configFile != null) {
+            try {
+                configFile.flush();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
             try {
-                Files.copy(new File(sounds, s1 + ".ogg").toPath(), new File(soundsFolder, s1 + ".ogg").toPath());
+                configFile.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+
+    public void addSound(String id, String s1, boolean onPlayer, int fallOff) {
+        id = id.replaceAll("\"", "\\\\\"");
+        s1 += ".ogg";
+        try {
+            if (onPlayer) {
+                configFile.write("  \"" + id + "\":\n");
+                configFile.write("    location: player\n");
+                configFile.write("    file: \"" + s1 + "\"\n");
+                configFile.write("    fallOff: " + fallOff + "\n");
+            } else {
+                configFile.write("  \"" + id + "\":\n");
+                configFile.write("    fallOff: " + fallOff + "\n");
+                configFile.write("    file: \"" + s1 + "\"\n");
+            }
+            try {
+                Files.copy(new File(sounds, s1).toPath(), new File(soundsFolder, s1).toPath());
             } catch (Exception e) {
-                System.out.println("Missing " + new File(sounds, s1 + ".ogg"));
+                System.out.println("Missing " + new File(sounds, s1));
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -100,19 +96,21 @@ public class SoundsHandler {
     }
 
     public void addSound(String id, String s1, boolean onPlayer) {
+        id = id.replaceAll("\"", "\\\\\"");
+        s1 += ".ogg";
         try {
             if (onPlayer) {
-                configFile.write("\t\"" + id + "\":\n");
-                configFile.write("\t\tlocation: player\n");
-                configFile.write("\t\tfile: \"" + s1 + "\"\n");
+                configFile.write("  \"" + id + "\":\n");
+                configFile.write("    location: player\n");
+                configFile.write("    file: \"" + s1 + "\"\n");
 
             } else {
-                configFile.write("\t\"" + id + "\":\"" + s1 + "\"\n");
+                configFile.write("  \"" + id + "\": \"" + s1 + "\"\n");
             }
             try {
-                Files.copy(new File(sounds, s1 + ".ogg").toPath(), new File(soundsFolder, s1 + ".ogg").toPath());
+                Files.copy(new File(sounds, s1).toPath(), new File(soundsFolder, s1).toPath());
             } catch (Exception e) {
-                System.out.println("Missing " + new File(sounds, s1 + ".ogg"));
+                System.out.println("Missing " + new File(sounds, s1));
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -120,22 +118,24 @@ public class SoundsHandler {
     }
 
     public void addSound(String id, String s1, boolean onPlayer, Vector3 pos) {
+        id = id.replaceAll("\"", "\\\\\"");
+        s1 += ".ogg";
         try {
             if (onPlayer) {
-                configFile.write("\t\"" + id + "\":\n");
-                configFile.write("\t\tlocation: player\n");
-                configFile.write("\t\tfile: \"" + s1 + "\"\n");
+                configFile.write("  \"" + id + "\":\n");
+                configFile.write("    location: player\n");
             } else {
-                configFile.write("\t\"" + id + "\":\n");
+                configFile.write("  \"" + id + "\":\n");
             }
-            configFile.write("\t\tlocation:\n");
-            configFile.write("\t\t\tx:" + pos.x);
-            configFile.write("\t\t\ty:" + pos.y);
-            configFile.write("\t\t\tz:" + pos.z);
+            configFile.write("    location:\n");
+            configFile.write("      x: " + pos.x + "\n");
+            configFile.write("      y: " + pos.y + "\n");
+            configFile.write("      z: " + pos.z + "\n");
+            configFile.write("    file: \"" + s1 + "\"\n");
             try {
-                Files.copy(new File(sounds, s1 + ".ogg").toPath(), new File(soundsFolder, s1 + ".ogg").toPath());
+                Files.copy(new File(sounds, s1).toPath(), new File(soundsFolder, s1).toPath());
             } catch (Exception e) {
-                System.out.println("Missing " + new File(sounds, s1 + ".ogg"));
+                System.out.println("Missing " + new File(sounds, s1));
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -143,12 +143,13 @@ public class SoundsHandler {
     }
 
     public void addSound(String id, String s1, boolean onPlayer, Vector3 pos, int fallOff) {
+        id = id.replaceAll("\"", "\\\\\"");
         addSound(id, s1, onPlayer, fallOff);
         try {
-            configFile.write("\t\tlocation:\n");
-            configFile.write("\t\t\tx:" + pos.x);
-            configFile.write("\t\t\ty:" + pos.y);
-            configFile.write("\t\t\tz:" + pos.z);
+            configFile.write("    location:\n");
+            configFile.write("      x: " + pos.x + "\n");
+            configFile.write("      y: " + pos.y + "\n");
+            configFile.write("      z: " + pos.z + "\n");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
