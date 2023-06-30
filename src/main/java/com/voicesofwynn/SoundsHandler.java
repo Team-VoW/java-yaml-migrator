@@ -74,16 +74,17 @@ public class SoundsHandler {
     public void addSound(String id, String s1, boolean onPlayer, int fallOff) {
         id = id.replaceAll("\"", "\\\\\"");
         s1 += ".ogg";
+        id = id.replaceAll("\n", "\\\\n");
         try {
             if (onPlayer) {
                 configFile.write("  \"" + id + "\":\n");
                 configFile.write("    location: player\n");
-                configFile.write("    file: \"" + s1 + "\"\n");
+                configFile.write("    file: \"" + (new File(sounds, s1).exists() ? s1 : "TODO" ) + "\"\n");
                 configFile.write("    fallOff: " + fallOff + "\n");
             } else {
                 configFile.write("  \"" + id + "\":\n");
                 configFile.write("    fallOff: " + fallOff + "\n");
-                configFile.write("    file: \"" + s1 + "\"\n");
+                configFile.write("    file: \"" + (new File(sounds, s1).exists() ? s1 : "TODO" ) + "\"\n");
             }
             try {
                 Files.copy(new File(sounds, s1).toPath(), new File(soundsFolder, s1).toPath());
@@ -97,15 +98,16 @@ public class SoundsHandler {
 
     public void addSound(String id, String s1, boolean onPlayer) {
         id = id.replaceAll("\"", "\\\\\"");
+        id = id.replaceAll("\n", "\\\\n");
         s1 += ".ogg";
         try {
             if (onPlayer) {
                 configFile.write("  \"" + id + "\":\n");
                 configFile.write("    location: player\n");
-                configFile.write("    file: \"" + s1 + "\"\n");
+                configFile.write("    file: \"" + (new File(sounds, s1).exists() ? s1 : "TODO" ) + "\"\n");
 
             } else {
-                configFile.write("  \"" + id + "\": \"" + s1 + "\"\n");
+                configFile.write("  \"" + id + "\": \"" + (new File(sounds, s1).exists() ? s1 : "TODO" ) + "\"\n");
             }
             try {
                 Files.copy(new File(sounds, s1).toPath(), new File(soundsFolder, s1).toPath());
@@ -119,6 +121,7 @@ public class SoundsHandler {
 
     public void addSound(String id, String s1, boolean onPlayer, Vector3 pos) {
         id = id.replaceAll("\"", "\\\\\"");
+        id = id.replaceAll("\n", "\\\\n");
         s1 += ".ogg";
         try {
             if (onPlayer) {
@@ -131,7 +134,7 @@ public class SoundsHandler {
             configFile.write("      x: " + pos.x + "\n");
             configFile.write("      y: " + pos.y + "\n");
             configFile.write("      z: " + pos.z + "\n");
-            configFile.write("    file: \"" + s1 + "\"\n");
+            configFile.write("    file: \"" + (new File(sounds, s1).exists() ? s1 : "TODO" ) + "\"\n");
             try {
                 Files.copy(new File(sounds, s1).toPath(), new File(soundsFolder, s1).toPath());
             } catch (Exception e) {
@@ -144,6 +147,7 @@ public class SoundsHandler {
 
     public void addSound(String id, String s1, boolean onPlayer, Vector3 pos, int fallOff) {
         id = id.replaceAll("\"", "\\\\\"");
+        id = id.replaceAll("\n", "\\\\n");
         addSound(id, s1, onPlayer, fallOff);
         try {
             configFile.write("    location:\n");
